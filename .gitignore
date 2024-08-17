@@ -1,8 +1,8 @@
-bin/
-obj/
-out/
-games.http
-genres.http
-.vscode/
-.env
-*.nupkg
+./bin
+./obj
+./out
+./games.http
+./genres.http
+./.vscode/
+./.env
+./*.nupkg
