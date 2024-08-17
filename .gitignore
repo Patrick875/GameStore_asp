@@ -1,8 +1,29 @@
-./bin
-./obj
-./out
-./games.http
-./genres.http
-./.vscode/
-./.env
-./*.nupkg
+# Ignore build output directories
+/bin/
+/obj/
+/out/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore .NET Core project artifacts
+project.lock.json
+project.fragment.lock.json
+artifactorybuildinfo.json
+*_i.c
+*_p.c
+*.dll
+*.exe
+
+# Ignore HTTP request files
+*.http
+
+# Ignore environment files
+.env
+
+# Ignore packages and NuGet package directories
+**/*.nupkg
+packages/
