@@ -1,0 +1,27 @@
+GET http://localhost:5000/games
+###
+GET http://localhost:5000/games/4
+
+###
+POST http://localhost:5000/games
+Content-Type: application/json
+
+{
+   "Name":"Need For Speed The Run II",
+   "GenreId":4,
+   "Price":35.99,
+   "ReleaseDate":"2011-11-18" 
+}
+
+###
+PUT http://localhost:5000/games/4
+Content-Type: application/json
+
+{
+   "name":"Need For Speed The Run ",
+   "genreId":4,
+   "Price":35.99,
+   "ReleaseDate":"2011-11-18"
+}
+###
+DELETE http://localhost:5000/games/1
